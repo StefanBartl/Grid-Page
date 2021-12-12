@@ -1,0 +1,26 @@
+:root {
+    --columns-row: 16;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(var(--columns-row), 1fr);
+    grid-template-rows: repeat(var(--columns-row), 1fr);
+    height: 500px;
+    width:  500px;
+    float: left;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    outline: 1px solid;
+    float: left;
+}
+
+
+button {
+    float: right;
+    margin: auto 350px;
+}
+
